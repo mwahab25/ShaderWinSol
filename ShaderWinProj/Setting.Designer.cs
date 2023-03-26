@@ -69,10 +69,12 @@
             this.groupBox1.Controls.Add(this.button_new);
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 10F);
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
-            this.groupBox1.Location = new System.Drawing.Point(194, 6);
+            this.groupBox1.Location = new System.Drawing.Point(226, 7);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox1.Size = new System.Drawing.Size(345, 161);
+            this.groupBox1.Size = new System.Drawing.Size(402, 198);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "بيانات المستخدمين";
@@ -83,9 +85,10 @@
             this.button_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_delete.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_delete.ForeColor = System.Drawing.Color.Black;
-            this.button_delete.Location = new System.Drawing.Point(18, 114);
+            this.button_delete.Location = new System.Drawing.Point(21, 140);
+            this.button_delete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_delete.Name = "button_delete";
-            this.button_delete.Size = new System.Drawing.Size(60, 32);
+            this.button_delete.Size = new System.Drawing.Size(70, 39);
             this.button_delete.TabIndex = 24;
             this.button_delete.Text = "حذف";
             this.button_delete.UseVisualStyleBackColor = true;
@@ -97,9 +100,10 @@
             this.button_save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_save.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_save.ForeColor = System.Drawing.Color.Black;
-            this.button_save.Location = new System.Drawing.Point(84, 114);
+            this.button_save.Location = new System.Drawing.Point(98, 140);
+            this.button_save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_save.Name = "button_save";
-            this.button_save.Size = new System.Drawing.Size(60, 32);
+            this.button_save.Size = new System.Drawing.Size(70, 39);
             this.button_save.TabIndex = 23;
             this.button_save.Text = "حفظ";
             this.button_save.UseVisualStyleBackColor = true;
@@ -108,9 +112,10 @@
             // textBox_username
             // 
             this.textBox_username.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_username.Location = new System.Drawing.Point(14, 35);
+            this.textBox_username.Location = new System.Drawing.Point(16, 43);
+            this.textBox_username.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_username.Name = "textBox_username";
-            this.textBox_username.Size = new System.Drawing.Size(196, 21);
+            this.textBox_username.Size = new System.Drawing.Size(228, 24);
             this.textBox_username.TabIndex = 0;
             // 
             // label2
@@ -118,9 +123,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(255, 39);
+            this.label2.Location = new System.Drawing.Point(298, 48);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 15);
+            this.label2.Size = new System.Drawing.Size(101, 20);
             this.label2.TabIndex = 10;
             this.label2.Text = "اسم المستخدم";
             // 
@@ -129,18 +135,20 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(271, 75);
+            this.label1.Location = new System.Drawing.Point(316, 92);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 15);
+            this.label1.Size = new System.Drawing.Size(80, 20);
             this.label1.TabIndex = 7;
             this.label1.Text = "كلمة المرور";
             // 
             // textBox_pass
             // 
             this.textBox_pass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_pass.Location = new System.Drawing.Point(14, 71);
+            this.textBox_pass.Location = new System.Drawing.Point(16, 87);
+            this.textBox_pass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_pass.Name = "textBox_pass";
-            this.textBox_pass.Size = new System.Drawing.Size(196, 21);
+            this.textBox_pass.Size = new System.Drawing.Size(228, 24);
             this.textBox_pass.TabIndex = 1;
             // 
             // button_new
@@ -149,9 +157,10 @@
             this.button_new.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_new.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_new.ForeColor = System.Drawing.Color.Black;
-            this.button_new.Location = new System.Drawing.Point(150, 114);
+            this.button_new.Location = new System.Drawing.Point(175, 140);
+            this.button_new.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_new.Name = "button_new";
-            this.button_new.Size = new System.Drawing.Size(60, 32);
+            this.button_new.Size = new System.Drawing.Size(70, 39);
             this.button_new.TabIndex = 6;
             this.button_new.Text = "جديد";
             this.button_new.UseVisualStyleBackColor = true;
@@ -162,10 +171,12 @@
             this.groupBox2.Controls.Add(this.dataGridView_users);
             this.groupBox2.Font = new System.Drawing.Font("Tahoma", 11F);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox2.Location = new System.Drawing.Point(12, 6);
+            this.groupBox2.Location = new System.Drawing.Point(14, 7);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox2.Size = new System.Drawing.Size(172, 508);
+            this.groupBox2.Size = new System.Drawing.Size(201, 625);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
             // 
@@ -174,15 +185,18 @@
             this.dataGridView_users.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_users.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Username});
-            this.dataGridView_users.Location = new System.Drawing.Point(6, 24);
+            this.dataGridView_users.Location = new System.Drawing.Point(7, 30);
+            this.dataGridView_users.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView_users.Name = "dataGridView_users";
-            this.dataGridView_users.Size = new System.Drawing.Size(160, 474);
+            this.dataGridView_users.RowHeadersWidth = 51;
+            this.dataGridView_users.Size = new System.Drawing.Size(187, 583);
             this.dataGridView_users.TabIndex = 0;
             this.dataGridView_users.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_users_CellClick);
             // 
             // Username
             // 
             this.Username.HeaderText = "المستخدمين";
+            this.Username.MinimumWidth = 6;
             this.Username.Name = "Username";
             this.Username.Width = 117;
             // 
@@ -201,10 +215,12 @@
             this.groupBox3.Controls.Add(this.checkBox1);
             this.groupBox3.Font = new System.Drawing.Font("Tahoma", 10F);
             this.groupBox3.ForeColor = System.Drawing.Color.Black;
-            this.groupBox3.Location = new System.Drawing.Point(194, 173);
+            this.groupBox3.Location = new System.Drawing.Point(226, 213);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox3.Size = new System.Drawing.Size(345, 341);
+            this.groupBox3.Size = new System.Drawing.Size(402, 420);
             this.groupBox3.TabIndex = 13;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "الصلاحيات";
@@ -216,9 +232,10 @@
             this.checkBox11.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox11.Enabled = false;
             this.checkBox11.ForeColor = System.Drawing.Color.Black;
-            this.checkBox11.Location = new System.Drawing.Point(183, 142);
+            this.checkBox11.Location = new System.Drawing.Point(214, 175);
+            this.checkBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(147, 21);
+            this.checkBox11.Size = new System.Drawing.Size(180, 25);
             this.checkBox11.TabIndex = 10;
             this.checkBox11.Text = "وصول لشاشة التوزيع";
             this.checkBox11.UseVisualStyleBackColor = true;
@@ -230,9 +247,10 @@
             this.checkBox10.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox10.Enabled = false;
             this.checkBox10.ForeColor = System.Drawing.Color.Black;
-            this.checkBox10.Location = new System.Drawing.Point(220, 310);
+            this.checkBox10.Location = new System.Drawing.Point(257, 382);
+            this.checkBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(111, 21);
+            this.checkBox10.Size = new System.Drawing.Size(137, 25);
             this.checkBox10.TabIndex = 9;
             this.checkBox10.Text = "امكانية الطباعة";
             this.checkBox10.UseVisualStyleBackColor = true;
@@ -244,9 +262,10 @@
             this.checkBox9.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox9.Enabled = false;
             this.checkBox9.ForeColor = System.Drawing.Color.Black;
-            this.checkBox9.Location = new System.Drawing.Point(173, 282);
+            this.checkBox9.Location = new System.Drawing.Point(202, 347);
+            this.checkBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(157, 21);
+            this.checkBox9.Size = new System.Drawing.Size(191, 25);
             this.checkBox9.TabIndex = 8;
             this.checkBox9.Text = "امكانية التعديل والحذف";
             this.checkBox9.UseVisualStyleBackColor = true;
@@ -258,9 +277,10 @@
             this.checkBox8.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox8.Enabled = false;
             this.checkBox8.ForeColor = System.Drawing.Color.Black;
-            this.checkBox8.Location = new System.Drawing.Point(223, 254);
+            this.checkBox8.Location = new System.Drawing.Point(260, 313);
+            this.checkBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(110, 21);
+            this.checkBox8.Size = new System.Drawing.Size(134, 25);
             this.checkBox8.TabIndex = 7;
             this.checkBox8.Text = "امكانية الاضافة";
             this.checkBox8.UseVisualStyleBackColor = true;
@@ -272,9 +292,10 @@
             this.checkBox7.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox7.Enabled = false;
             this.checkBox7.ForeColor = System.Drawing.Color.Black;
-            this.checkBox7.Location = new System.Drawing.Point(180, 226);
+            this.checkBox7.Location = new System.Drawing.Point(210, 278);
+            this.checkBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(150, 21);
+            this.checkBox7.Size = new System.Drawing.Size(183, 25);
             this.checkBox7.TabIndex = 6;
             this.checkBox7.Text = "وصول لشاشة التقارير";
             this.checkBox7.UseVisualStyleBackColor = true;
@@ -286,9 +307,10 @@
             this.checkBox6.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox6.Enabled = false;
             this.checkBox6.ForeColor = System.Drawing.Color.Black;
-            this.checkBox6.Location = new System.Drawing.Point(171, 198);
+            this.checkBox6.Location = new System.Drawing.Point(200, 244);
+            this.checkBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(159, 21);
+            this.checkBox6.Size = new System.Drawing.Size(192, 25);
             this.checkBox6.TabIndex = 5;
             this.checkBox6.Text = "وصول لشاشة المخزون";
             this.checkBox6.UseVisualStyleBackColor = true;
@@ -300,9 +322,10 @@
             this.checkBox5.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox5.Enabled = false;
             this.checkBox5.ForeColor = System.Drawing.Color.Black;
-            this.checkBox5.Location = new System.Drawing.Point(170, 170);
+            this.checkBox5.Location = new System.Drawing.Point(198, 209);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(160, 21);
+            this.checkBox5.Size = new System.Drawing.Size(194, 25);
             this.checkBox5.TabIndex = 4;
             this.checkBox5.Text = "وصول لشاشة المبيعات";
             this.checkBox5.UseVisualStyleBackColor = true;
@@ -314,9 +337,10 @@
             this.checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox4.Enabled = false;
             this.checkBox4.ForeColor = System.Drawing.Color.Black;
-            this.checkBox4.Location = new System.Drawing.Point(157, 114);
+            this.checkBox4.Location = new System.Drawing.Point(183, 140);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(173, 21);
+            this.checkBox4.Size = new System.Drawing.Size(210, 25);
             this.checkBox4.TabIndex = 3;
             this.checkBox4.Text = "وصول لشاشة المشتريات";
             this.checkBox4.UseVisualStyleBackColor = true;
@@ -328,9 +352,10 @@
             this.checkBox3.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox3.Enabled = false;
             this.checkBox3.ForeColor = System.Drawing.Color.Black;
-            this.checkBox3.Location = new System.Drawing.Point(187, 86);
+            this.checkBox3.Location = new System.Drawing.Point(218, 106);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(145, 21);
+            this.checkBox3.Size = new System.Drawing.Size(177, 25);
             this.checkBox3.TabIndex = 2;
             this.checkBox3.Text = "وصول لقاعدة البيانات";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -342,9 +367,10 @@
             this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox2.Enabled = false;
             this.checkBox2.ForeColor = System.Drawing.Color.Black;
-            this.checkBox2.Location = new System.Drawing.Point(183, 58);
+            this.checkBox2.Location = new System.Drawing.Point(214, 71);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(147, 21);
+            this.checkBox2.Size = new System.Drawing.Size(178, 25);
             this.checkBox2.TabIndex = 1;
             this.checkBox2.Text = "وصول للادوات الادارية";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -356,23 +382,25 @@
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox1.Enabled = false;
             this.checkBox1.ForeColor = System.Drawing.Color.Black;
-            this.checkBox1.Location = new System.Drawing.Point(218, 30);
+            this.checkBox1.Location = new System.Drawing.Point(254, 37);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(114, 21);
+            this.checkBox1.Size = new System.Drawing.Size(138, 25);
             this.checkBox1.TabIndex = 0;
             this.checkBox1.Text = "وصول للاعدادت";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // Setting
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(548, 523);
+            this.ClientSize = new System.Drawing.Size(639, 644);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Setting";
             this.ShowInTaskbar = false;

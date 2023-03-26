@@ -64,6 +64,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.الاعداداتToolStripMenuItem,
             this.أدواتإداريةToolStripMenuItem,
@@ -71,8 +72,9 @@
             this.خروجToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
             this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuStrip1.Size = new System.Drawing.Size(1136, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1325, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -82,20 +84,20 @@
             this.إعداداتالبرنامجToolStripMenuItem,
             this.إدارةالمستخدمينToolStripMenuItem});
             this.الاعداداتToolStripMenuItem.Name = "الاعداداتToolStripMenuItem";
-            this.الاعداداتToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
+            this.الاعداداتToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.الاعداداتToolStripMenuItem.Text = "إعدادات";
             // 
             // إعداداتالبرنامجToolStripMenuItem
             // 
             this.إعداداتالبرنامجToolStripMenuItem.Name = "إعداداتالبرنامجToolStripMenuItem";
-            this.إعداداتالبرنامجToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.إعداداتالبرنامجToolStripMenuItem.Size = new System.Drawing.Size(202, 26);
             this.إعداداتالبرنامجToolStripMenuItem.Text = "إعدادات البرنامج";
             this.إعداداتالبرنامجToolStripMenuItem.Click += new System.EventHandler(this.إعداداتالبرنامجToolStripMenuItem_Click);
             // 
             // إدارةالمستخدمينToolStripMenuItem
             // 
             this.إدارةالمستخدمينToolStripMenuItem.Name = "إدارةالمستخدمينToolStripMenuItem";
-            this.إدارةالمستخدمينToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.إدارةالمستخدمينToolStripMenuItem.Size = new System.Drawing.Size(202, 26);
             this.إدارةالمستخدمينToolStripMenuItem.Text = "إدارة المستخدمين";
             this.إدارةالمستخدمينToolStripMenuItem.Click += new System.EventHandler(this.إدارةالمستخدمينToolStripMenuItem_Click);
             // 
@@ -107,34 +109,34 @@
             this.الاصنافToolStripMenuItem,
             this.الموظفينToolStripMenuItem});
             this.أدواتإداريةToolStripMenuItem.Name = "أدواتإداريةToolStripMenuItem";
-            this.أدواتإداريةToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
+            this.أدواتإداريةToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
             this.أدواتإداريةToolStripMenuItem.Text = "أدوات إدارية";
             // 
             // العملاءToolStripMenuItem
             // 
             this.العملاءToolStripMenuItem.Name = "العملاءToolStripMenuItem";
-            this.العملاءToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.العملاءToolStripMenuItem.Size = new System.Drawing.Size(154, 26);
             this.العملاءToolStripMenuItem.Text = "العملاء";
             this.العملاءToolStripMenuItem.Click += new System.EventHandler(this.العملاءToolStripMenuItem_Click);
             // 
             // الموردينToolStripMenuItem
             // 
             this.الموردينToolStripMenuItem.Name = "الموردينToolStripMenuItem";
-            this.الموردينToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.الموردينToolStripMenuItem.Size = new System.Drawing.Size(154, 26);
             this.الموردينToolStripMenuItem.Text = "الموردين";
             this.الموردينToolStripMenuItem.Click += new System.EventHandler(this.الموردينToolStripMenuItem_Click);
             // 
             // الاصنافToolStripMenuItem
             // 
             this.الاصنافToolStripMenuItem.Name = "الاصنافToolStripMenuItem";
-            this.الاصنافToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.الاصنافToolStripMenuItem.Size = new System.Drawing.Size(154, 26);
             this.الاصنافToolStripMenuItem.Text = "الاصناف";
             this.الاصنافToolStripMenuItem.Click += new System.EventHandler(this.الاصنافToolStripMenuItem_Click);
             // 
             // الموظفينToolStripMenuItem
             // 
             this.الموظفينToolStripMenuItem.Name = "الموظفينToolStripMenuItem";
-            this.الموظفينToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.الموظفينToolStripMenuItem.Size = new System.Drawing.Size(154, 26);
             this.الموظفينToolStripMenuItem.Text = "الموظفين";
             this.الموظفينToolStripMenuItem.Click += new System.EventHandler(this.الموظفينToolStripMenuItem_Click);
             // 
@@ -144,41 +146,43 @@
             this.دليلالاستخدامToolStripMenuItem,
             this.حولالبرنامجToolStripMenuItem});
             this.تعليماتToolStripMenuItem.Name = "تعليماتToolStripMenuItem";
-            this.تعليماتToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.تعليماتToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.تعليماتToolStripMenuItem.Text = "تعليمات";
             // 
             // دليلالاستخدامToolStripMenuItem
             // 
             this.دليلالاستخدامToolStripMenuItem.Name = "دليلالاستخدامToolStripMenuItem";
-            this.دليلالاستخدامToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.دليلالاستخدامToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
             this.دليلالاستخدامToolStripMenuItem.Text = "دليل الاستخدام";
             // 
             // حولالبرنامجToolStripMenuItem
             // 
             this.حولالبرنامجToolStripMenuItem.Name = "حولالبرنامجToolStripMenuItem";
-            this.حولالبرنامجToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.حولالبرنامجToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
             this.حولالبرنامجToolStripMenuItem.Text = "حول البرنامج";
             this.حولالبرنامجToolStripMenuItem.Click += new System.EventHandler(this.حولالبرنامجToolStripMenuItem_Click);
             // 
             // خروجToolStripMenuItem
             // 
             this.خروجToolStripMenuItem.Name = "خروجToolStripMenuItem";
-            this.خروجToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.خروجToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
             this.خروجToolStripMenuItem.Text = "خروج";
             this.خروجToolStripMenuItem.Click += new System.EventHandler(this.خروجToolStripMenuItem_Click);
             // 
             // statusStrip1
             // 
             this.statusStrip1.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel_productver,
             this.toolStripStatusLabel_user,
             this.toolStripStatusLabel_date,
             this.toolStripStatusLabel_time});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 686);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 845);
             this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(16, 0, 1, 0);
             this.statusStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.statusStrip1.Size = new System.Drawing.Size(1136, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1325, 26);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -187,21 +191,21 @@
             this.toolStripStatusLabel_productver.BackColor = System.Drawing.Color.Transparent;
             this.toolStripStatusLabel_productver.ForeColor = System.Drawing.Color.White;
             this.toolStripStatusLabel_productver.Name = "toolStripStatusLabel_productver";
-            this.toolStripStatusLabel_productver.Size = new System.Drawing.Size(51, 17);
+            this.toolStripStatusLabel_productver.Size = new System.Drawing.Size(64, 20);
             this.toolStripStatusLabel_productver.Text = "versione";
             // 
             // toolStripStatusLabel_user
             // 
             this.toolStripStatusLabel_user.ForeColor = System.Drawing.Color.White;
             this.toolStripStatusLabel_user.Name = "toolStripStatusLabel_user";
-            this.toolStripStatusLabel_user.Size = new System.Drawing.Size(35, 17);
+            this.toolStripStatusLabel_user.Size = new System.Drawing.Size(44, 20);
             this.toolStripStatusLabel_user.Text = "usere";
             // 
             // toolStripStatusLabel_date
             // 
             this.toolStripStatusLabel_date.ForeColor = System.Drawing.Color.White;
             this.toolStripStatusLabel_date.Name = "toolStripStatusLabel_date";
-            this.toolStripStatusLabel_date.Size = new System.Drawing.Size(36, 17);
+            this.toolStripStatusLabel_date.Size = new System.Drawing.Size(47, 20);
             this.toolStripStatusLabel_date.Text = "datee";
             // 
             // toolStripStatusLabel_time
@@ -209,7 +213,7 @@
             this.toolStripStatusLabel_time.ForeColor = System.Drawing.Color.White;
             this.toolStripStatusLabel_time.Name = "toolStripStatusLabel_time";
             this.toolStripStatusLabel_time.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.toolStripStatusLabel_time.Size = new System.Drawing.Size(37, 17);
+            this.toolStripStatusLabel_time.Size = new System.Drawing.Size(47, 20);
             this.toolStripStatusLabel_time.Text = "timee";
             // 
             // panel1
@@ -221,9 +225,10 @@
             this.panel1.Controls.Add(this.button_divide);
             this.panel1.Controls.Add(this.button_inv);
             this.panel1.Controls.Add(this.button_sales);
-            this.panel1.Location = new System.Drawing.Point(1023, 27);
+            this.panel1.Location = new System.Drawing.Point(1194, 33);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(113, 656);
+            this.panel1.Size = new System.Drawing.Size(132, 807);
             this.panel1.TabIndex = 6;
             // 
             // button_reports
@@ -234,9 +239,10 @@
             this.button_reports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_reports.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.button_reports.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.button_reports.Location = new System.Drawing.Point(6, 306);
+            this.button_reports.Location = new System.Drawing.Point(7, 377);
+            this.button_reports.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_reports.Name = "button_reports";
-            this.button_reports.Size = new System.Drawing.Size(101, 60);
+            this.button_reports.Size = new System.Drawing.Size(118, 74);
             this.button_reports.TabIndex = 4;
             this.button_reports.Text = "التقارير";
             this.button_reports.UseVisualStyleBackColor = false;
@@ -250,9 +256,10 @@
             this.button_purchases.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_purchases.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
             this.button_purchases.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.button_purchases.Location = new System.Drawing.Point(6, 12);
+            this.button_purchases.Location = new System.Drawing.Point(7, 15);
+            this.button_purchases.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_purchases.Name = "button_purchases";
-            this.button_purchases.Size = new System.Drawing.Size(101, 60);
+            this.button_purchases.Size = new System.Drawing.Size(118, 74);
             this.button_purchases.TabIndex = 0;
             this.button_purchases.Text = "المشتريات";
             this.button_purchases.UseVisualStyleBackColor = false;
@@ -266,9 +273,10 @@
             this.button_divide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_divide.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.button_divide.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.button_divide.Location = new System.Drawing.Point(6, 84);
+            this.button_divide.Location = new System.Drawing.Point(7, 103);
+            this.button_divide.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_divide.Name = "button_divide";
-            this.button_divide.Size = new System.Drawing.Size(101, 60);
+            this.button_divide.Size = new System.Drawing.Size(118, 74);
             this.button_divide.TabIndex = 1;
             this.button_divide.Text = "المبيعات";
             this.button_divide.UseVisualStyleBackColor = false;
@@ -282,9 +290,10 @@
             this.button_inv.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_inv.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.button_inv.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.button_inv.Location = new System.Drawing.Point(6, 231);
+            this.button_inv.Location = new System.Drawing.Point(7, 284);
+            this.button_inv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_inv.Name = "button_inv";
-            this.button_inv.Size = new System.Drawing.Size(101, 60);
+            this.button_inv.Size = new System.Drawing.Size(118, 74);
             this.button_inv.TabIndex = 3;
             this.button_inv.Text = "المخزون";
             this.button_inv.UseVisualStyleBackColor = false;
@@ -298,9 +307,10 @@
             this.button_sales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_sales.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.button_sales.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.button_sales.Location = new System.Drawing.Point(6, 158);
+            this.button_sales.Location = new System.Drawing.Point(7, 194);
+            this.button_sales.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_sales.Name = "button_sales";
-            this.button_sales.Size = new System.Drawing.Size(101, 60);
+            this.button_sales.Size = new System.Drawing.Size(118, 74);
             this.button_sales.TabIndex = 2;
             this.button_sales.Text = "الفواتيـر";
             this.button_sales.UseVisualStyleBackColor = false;
@@ -312,9 +322,10 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.button2);
-            this.panel2.Location = new System.Drawing.Point(0, 27);
+            this.panel2.Location = new System.Drawing.Point(0, 33);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(52, 656);
+            this.panel2.Size = new System.Drawing.Size(61, 807);
             this.panel2.TabIndex = 8;
             // 
             // button1
@@ -326,9 +337,10 @@
             this.button1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(6, 5);
+            this.button1.Location = new System.Drawing.Point(7, 6);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(39, 35);
+            this.button1.Size = new System.Drawing.Size(46, 43);
             this.button1.TabIndex = 5;
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button1.UseVisualStyleBackColor = false;
@@ -343,9 +355,10 @@
             this.button2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.button2.Image = global::ShaderWinProj.Properties.Resources.businesswoman_man;
-            this.button2.Location = new System.Drawing.Point(6, 46);
+            this.button2.Location = new System.Drawing.Point(7, 57);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(39, 35);
+            this.button2.Size = new System.Drawing.Size(46, 43);
             this.button2.TabIndex = 6;
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.UseVisualStyleBackColor = false;
@@ -353,11 +366,11 @@
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1136, 708);
+            this.ClientSize = new System.Drawing.Size(1325, 871);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.statusStrip1);
@@ -365,9 +378,10 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = " PieShader Ver 1.0 برنامج ادارة الشوادر ";
+            this.Text = " PieStock  برنامج ادارة المخزون (نسخة تجريبية) ";
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

@@ -43,17 +43,19 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(95, 32);
+            this.label1.Location = new System.Drawing.Point(111, 39);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 16);
+            this.label1.Size = new System.Drawing.Size(77, 21);
             this.label1.TabIndex = 4;
             this.label1.Text = "Loading..";
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(47, 66);
+            this.progressBar1.Location = new System.Drawing.Point(55, 81);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(108, 10);
+            this.progressBar1.Size = new System.Drawing.Size(126, 12);
             this.progressBar1.TabIndex = 0;
             // 
             // timer1
@@ -64,10 +66,11 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::ShaderWinProj.Properties.Resources.restaurant_vegetables;
-            this.pictureBox1.Location = new System.Drawing.Point(37, 17);
+            this.pictureBox1.Image = global::ShaderWinProj.Properties.Resources.cereal;
+            this.pictureBox1.Location = new System.Drawing.Point(43, 21);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(52, 43);
+            this.pictureBox1.Size = new System.Drawing.Size(61, 53);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -79,18 +82,20 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.progressBar1);
             this.panel1.Location = new System.Drawing.Point(2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.Size = new System.Drawing.Size(233, 123);
             this.panel1.TabIndex = 7;
             // 
             // Starting
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.ClientSize = new System.Drawing.Size(204, 104);
+            this.ClientSize = new System.Drawing.Size(238, 128);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Starting";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

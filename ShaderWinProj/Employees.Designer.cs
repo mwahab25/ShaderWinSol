@@ -68,18 +68,21 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.textBox2);
             this.groupBox2.Controls.Add(this.dataGridView_sups);
-            this.groupBox2.Location = new System.Drawing.Point(12, 7);
+            this.groupBox2.Location = new System.Drawing.Point(14, 9);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox2.Size = new System.Drawing.Size(432, 308);
+            this.groupBox2.Size = new System.Drawing.Size(504, 379);
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(82, 56);
+            this.button3.Location = new System.Drawing.Point(96, 69);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(50, 23);
+            this.button3.Size = new System.Drawing.Size(58, 28);
             this.button3.TabIndex = 9;
             this.button3.Text = "بحث";
             this.button3.UseVisualStyleBackColor = true;
@@ -90,26 +93,29 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(351, 63);
+            this.label8.Location = new System.Drawing.Point(410, 78);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(75, 15);
+            this.label8.Size = new System.Drawing.Size(96, 20);
             this.label8.TabIndex = 13;
             this.label8.Text = "بحث بالموبايل";
             // 
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(138, 59);
+            this.textBox3.Location = new System.Drawing.Point(161, 73);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox3.Name = "textBox3";
             this.textBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox3.Size = new System.Drawing.Size(195, 21);
+            this.textBox3.Size = new System.Drawing.Size(227, 24);
             this.textBox3.TabIndex = 8;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(82, 27);
+            this.button2.Location = new System.Drawing.Point(96, 33);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(50, 23);
+            this.button2.Size = new System.Drawing.Size(58, 28);
             this.button2.TabIndex = 7;
             this.button2.Text = "بحث";
             this.button2.UseVisualStyleBackColor = true;
@@ -120,19 +126,21 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(363, 33);
+            this.label4.Location = new System.Drawing.Point(424, 41);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 15);
+            this.label4.Size = new System.Drawing.Size(81, 20);
             this.label4.TabIndex = 11;
             this.label4.Text = "بحث بالاسم";
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(138, 29);
+            this.textBox2.Location = new System.Drawing.Point(161, 36);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
             this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox2.Size = new System.Drawing.Size(195, 21);
+            this.textBox2.Size = new System.Drawing.Size(227, 24);
             this.textBox2.TabIndex = 7;
             // 
             // dataGridView_sups
@@ -144,23 +152,28 @@
             this.ColName,
             this.ColPhone,
             this.ColMob});
-            this.dataGridView_sups.Location = new System.Drawing.Point(9, 92);
+            this.dataGridView_sups.Location = new System.Drawing.Point(10, 113);
+            this.dataGridView_sups.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView_sups.Name = "dataGridView_sups";
             this.dataGridView_sups.ReadOnly = true;
-            this.dataGridView_sups.Size = new System.Drawing.Size(414, 206);
+            this.dataGridView_sups.RowHeadersWidth = 51;
+            this.dataGridView_sups.Size = new System.Drawing.Size(483, 254);
             this.dataGridView_sups.TabIndex = 10;
             this.dataGridView_sups.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_sups_CellClick);
             // 
             // ColID
             // 
             this.ColID.HeaderText = " م";
+            this.ColID.MinimumWidth = 6;
             this.ColID.Name = "ColID";
             this.ColID.ReadOnly = true;
             this.ColID.Visible = false;
+            this.ColID.Width = 125;
             // 
             // ColName
             // 
             this.ColName.HeaderText = "الاسم";
+            this.ColName.MinimumWidth = 6;
             this.ColName.Name = "ColName";
             this.ColName.ReadOnly = true;
             this.ColName.Width = 170;
@@ -168,14 +181,18 @@
             // ColPhone
             // 
             this.ColPhone.HeaderText = "تليفون";
+            this.ColPhone.MinimumWidth = 6;
             this.ColPhone.Name = "ColPhone";
             this.ColPhone.ReadOnly = true;
+            this.ColPhone.Width = 125;
             // 
             // ColMob
             // 
             this.ColMob.HeaderText = "موبايل";
+            this.ColMob.MinimumWidth = 6;
             this.ColMob.Name = "ColMob";
             this.ColMob.ReadOnly = true;
+            this.ColMob.Width = 125;
             // 
             // groupBox1
             // 
@@ -191,17 +208,20 @@
             this.groupBox1.Controls.Add(this.textBox_phone);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.textBox_name);
-            this.groupBox1.Location = new System.Drawing.Point(450, 7);
+            this.groupBox1.Location = new System.Drawing.Point(525, 9);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(350, 306);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(408, 377);
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             // 
             // textBox_magicid
             // 
-            this.textBox_magicid.Location = new System.Drawing.Point(179, 230);
+            this.textBox_magicid.Location = new System.Drawing.Point(209, 283);
+            this.textBox_magicid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_magicid.Name = "textBox_magicid";
-            this.textBox_magicid.Size = new System.Drawing.Size(164, 20);
+            this.textBox_magicid.Size = new System.Drawing.Size(191, 24);
             this.textBox_magicid.TabIndex = 20;
             this.textBox_magicid.Visible = false;
             // 
@@ -211,9 +231,10 @@
             this.button_new.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_new.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_new.ForeColor = System.Drawing.Color.Black;
-            this.button_new.Location = new System.Drawing.Point(179, 181);
+            this.button_new.Location = new System.Drawing.Point(209, 223);
+            this.button_new.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_new.Name = "button_new";
-            this.button_new.Size = new System.Drawing.Size(60, 32);
+            this.button_new.Size = new System.Drawing.Size(70, 39);
             this.button_new.TabIndex = 0;
             this.button_new.Text = "جديد";
             this.button_new.UseVisualStyleBackColor = true;
@@ -224,9 +245,10 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(304, 126);
+            this.label7.Location = new System.Drawing.Point(355, 155);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 15);
+            this.label7.Size = new System.Drawing.Size(45, 20);
             this.label7.TabIndex = 18;
             this.label7.Text = "عنوان";
             // 
@@ -236,9 +258,10 @@
             this.button_save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_save.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_save.ForeColor = System.Drawing.Color.Black;
-            this.button_save.Location = new System.Drawing.Point(113, 181);
+            this.button_save.Location = new System.Drawing.Point(132, 223);
+            this.button_save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_save.Name = "button_save";
-            this.button_save.Size = new System.Drawing.Size(60, 32);
+            this.button_save.Size = new System.Drawing.Size(70, 39);
             this.button_save.TabIndex = 5;
             this.button_save.Text = "حفظ";
             this.button_save.UseVisualStyleBackColor = true;
@@ -247,11 +270,12 @@
             // textBox_addr
             // 
             this.textBox_addr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_addr.Location = new System.Drawing.Point(11, 122);
+            this.textBox_addr.Location = new System.Drawing.Point(13, 150);
+            this.textBox_addr.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_addr.Multiline = true;
             this.textBox_addr.Name = "textBox_addr";
             this.textBox_addr.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox_addr.Size = new System.Drawing.Size(228, 48);
+            this.textBox_addr.Size = new System.Drawing.Size(265, 58);
             this.textBox_addr.TabIndex = 4;
             // 
             // button_delete
@@ -260,9 +284,10 @@
             this.button_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_delete.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_delete.ForeColor = System.Drawing.Color.Black;
-            this.button_delete.Location = new System.Drawing.Point(47, 181);
+            this.button_delete.Location = new System.Drawing.Point(55, 223);
+            this.button_delete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_delete.Name = "button_delete";
-            this.button_delete.Size = new System.Drawing.Size(60, 32);
+            this.button_delete.Size = new System.Drawing.Size(70, 39);
             this.button_delete.TabIndex = 6;
             this.button_delete.Text = "حذف";
             this.button_delete.UseVisualStyleBackColor = true;
@@ -273,9 +298,10 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(300, 94);
+            this.label6.Location = new System.Drawing.Point(350, 116);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(39, 15);
+            this.label6.Size = new System.Drawing.Size(50, 20);
             this.label6.TabIndex = 16;
             this.label6.Text = "موبايل";
             // 
@@ -284,28 +310,31 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(300, 61);
+            this.label5.Location = new System.Drawing.Point(350, 75);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(39, 15);
+            this.label5.Size = new System.Drawing.Size(50, 20);
             this.label5.TabIndex = 15;
             this.label5.Text = "تليفون";
             // 
             // textBox_mob
             // 
             this.textBox_mob.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_mob.Location = new System.Drawing.Point(11, 90);
+            this.textBox_mob.Location = new System.Drawing.Point(13, 111);
+            this.textBox_mob.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_mob.Name = "textBox_mob";
             this.textBox_mob.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox_mob.Size = new System.Drawing.Size(228, 21);
+            this.textBox_mob.Size = new System.Drawing.Size(265, 24);
             this.textBox_mob.TabIndex = 3;
             // 
             // textBox_phone
             // 
             this.textBox_phone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_phone.Location = new System.Drawing.Point(11, 57);
+            this.textBox_phone.Location = new System.Drawing.Point(13, 70);
+            this.textBox_phone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_phone.Name = "textBox_phone";
             this.textBox_phone.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox_phone.Size = new System.Drawing.Size(228, 21);
+            this.textBox_phone.Size = new System.Drawing.Size(265, 24);
             this.textBox_phone.TabIndex = 2;
             // 
             // label1
@@ -313,31 +342,34 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(267, 30);
+            this.label1.Location = new System.Drawing.Point(312, 37);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 15);
+            this.label1.Size = new System.Drawing.Size(93, 20);
             this.label1.TabIndex = 7;
             this.label1.Text = "إسم الموظف";
             // 
             // textBox_name
             // 
             this.textBox_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_name.Location = new System.Drawing.Point(11, 26);
+            this.textBox_name.Location = new System.Drawing.Point(13, 32);
+            this.textBox_name.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_name.Name = "textBox_name";
             this.textBox_name.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox_name.Size = new System.Drawing.Size(228, 21);
+            this.textBox_name.Size = new System.Drawing.Size(265, 24);
             this.textBox_name.TabIndex = 1;
             // 
             // Employees
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(807, 327);
+            this.ClientSize = new System.Drawing.Size(941, 402);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Employees";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -13,7 +13,7 @@ namespace ShaderWinProj.App_Code
 {
     public class Connection
     {  
-        public SqlConnection Cn = new SqlConnection(ConfigurationManager.ConnectionStrings["LocalShader"].ConnectionString);
+        public SqlConnection Cn = new SqlConnection(ConfigurationManager.ConnectionStrings["Shader"].ConnectionString);
         SqlDataAdapter da = new SqlDataAdapter();
         DataSet ds = new DataSet();
 
